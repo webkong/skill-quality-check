@@ -29,7 +29,8 @@ Find the SKILL.md file:
 2. <skills-dir>/<skill-name>/SKILL.md
 
    # Common locations by platform:
-   #   OpenClaw:  ~/.qclaw/skills/<skill-name>/SKILL.md
+   #   OpenClaw:  ~/.openclaw/skills/<skill-name>/SKILL.md
+   #   QClaw:     ~/.qclaw/skills/<skill-name>/SKILL.md
    #   Claude:    ~/Library/Application Support/Claude/skills/<skill-name>/SKILL.md
    #   Cursor:    ~/.cursor/skills/<skill-name>/SKILL.md
    #   Codex:     ~/.codex/skills/<skill-name>/SKILL.md
