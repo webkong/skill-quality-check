@@ -1,0 +1,24 @@
+name: Release Skill Package
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Create Skill Package
+        run: |
+          zip -r skill-audit.zip skills/
+      
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: skill-audit.zip
+          generate_release_notes: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
