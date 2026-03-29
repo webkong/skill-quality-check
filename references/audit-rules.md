@@ -1,12 +1,12 @@
 # Audit Rules: The Full Rulebook
 
-> Detailed scoring rules and evaluation criteria for Skill Audit. Use this as the definitive reference when auditing Skills.
+> Detailed scoring rules and evaluation criteria for Skill Quality Check. Use this as the definitive reference when auditing Skills.
 
 ---
 
 ## Overview
 
-Skill Audit evaluates Skills across 5 dimensions:
+Skill Quality Check evaluates Skills across 5 dimensions:
 
 | Dimension | Points | Weight |
 |-----------|--------|--------|

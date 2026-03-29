@@ -278,10 +278,9 @@ VI.  IMPROVEMENT RECOMMENDATIONS (priority order)
 | Not layered | Docs in body | Move to references/ |
 | Mis-triggers | Overlapping or vague keywords | Differentiate Descriptions |
 
-## Skill Audit vs. Skill Vetter
+## Skill Quality Check vs. Skill Vetter
 
-| Dimension | Skill Vetter | Skill Audit |
-|-----------|-------------|-------------|
+| Dimension | Skill Vetter | Skill Quality Check |
 | **Goal** | Security review | Quality review |
 | **Core question** | Will this Skill harm me? | Is this Skill well-written? |
 | **Focus** | Malicious code, permission abuse | Writing standards, performance |

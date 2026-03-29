@@ -7,7 +7,7 @@
 
 ---
 
-## What is Skill Audit?
+## What is Skill Quality Check?
 
 **Skill Quality Check** is a universal quality assessment framework for AI Agent Skills (SKILL.md files). It evaluates how well a Skill is written against **AI agent best practices**, scoring five key dimensions and providing actionable improvement suggestions. Designed to work with skills built for Claude, Cursor, Codex, OpenClaw, or any AI agent platform.
 
@@ -21,13 +21,13 @@ The AI Agent ecosystem is flooded with Skills — but most are written poorly:
 - **No examples** → unpredictable outputs
 - **Trigger keywords are vague** → wrong Skill gets called
 
-Skill Audit solves this with a **systematic, repeatable evaluation process**.
+Skill Quality Check solves this with a **systematic, repeatable evaluation process**.
 
 ---
 
 ## The Audit Mechanism
 
-Skill Audit evaluates Skills across **5 dimensions** (100 points total + bonus/penalty):
+Skill Quality Check evaluates Skills across **5 dimensions** (100 points total + bonus/penalty):
 
 ```
 ┌─────────────────────────────────────────────────────────┐
