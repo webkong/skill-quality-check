@@ -1,13 +1,13 @@
 ---
-name: skill-audit
+name: skill-quality-check
 description: >
   Quality audit for AI Agent Skills. Use before installing or after writing any SKILL.md.
-  Scores 5 dimensions against Claude best practices. Keywords: audit, skill, quality, review, score, assess, best practices.
+  Scores 5 dimensions with actionable improvements. Works for skills written for Claude, Cursor, Codex, and any AI agent. Keywords: audit, skill, quality, review, score, assess, best practices, vet.
 ---
 
-# Skill Audit 🔍
+# Skill Quality Check 🔍
 
-Systematic quality assessment for AI Agent Skills. Evaluates SKILL.md files against Claude's official Skill Creator best practices across **5 dimensions**, outputting a quantified score and actionable improvement suggestions.
+Universal quality assessment framework for AI Agent Skills. Evaluates any SKILL.md file across **5 dimensions**, outputting a quantified score and actionable improvement suggestions. Designed to work with skills built for Claude, Cursor, Codex, OpenClaw, or any AI agent.
 
 ## When to Use
 
@@ -26,7 +26,13 @@ Find the SKILL.md file:
 ```
 # Path priority (in order):
 1. User-specified path
-2. ~/.qclaw/skills/<skill-name>/SKILL.md
+2. <skills-dir>/<skill-name>/SKILL.md
+
+   # Common locations by platform:
+   #   OpenClaw:  ~/.qclaw/skills/<skill-name>/SKILL.md
+   #   Claude:    ~/Library/Application Support/Claude/skills/<skill-name>/SKILL.md
+   #   Cursor:    ~/.cursor/skills/<skill-name>/SKILL.md
+   #   Codex:     ~/.codex/skills/<skill-name>/SKILL.md
 3. <repo>/skills/<skill-name>/SKILL.md
 4. <repo>/<skill-name>/SKILL.md
 

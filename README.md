@@ -1,6 +1,6 @@
-# Skill Audit 🔍
+# Skill Quality Check 🔍
 
-> Systematic quality assessment tool for AI Agent Skills. Evaluate any SKILL.md against Claude's official best practices.
+> Universal quality assessment tool for AI Agent Skills. Evaluate any SKILL.md against AI agent best practices. Works with Claude, Cursor, Codex, OpenClaw, and more.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![OpenClaw Compatible](https://img.shields.io/badge/OpenClaw-Skills%20v2-blue)](https://openclaw.ai)
@@ -9,7 +9,7 @@
 
 ## What is Skill Audit?
 
-**Skill Audit** is a quality assessment framework for AI Agent Skills (SKILL.md files). It evaluates how well a Skill is written against **Claude's official Skill Creator best practices**, scoring five key dimensions and providing actionable improvement suggestions.
+**Skill Quality Check** is a universal quality assessment framework for AI Agent Skills (SKILL.md files). It evaluates how well a Skill is written against **AI agent best practices**, scoring five key dimensions and providing actionable improvement suggestions. Designed to work with skills built for Claude, Cursor, Codex, OpenClaw, or any AI agent platform.
 
 ### Why Does This Exist?
 
@@ -195,11 +195,11 @@ Then submit a PR.
 
 | Tool | Purpose | When to Use |
 |------|---------|-------------|
-| **Skill Audit** | Quality assessment | Evaluating Skills |
+| **Skill Quality Check** | Quality assessment | Evaluating Skills |
 | **Skill Vetter** | Security review | Checking for malicious code |
 | **Skill Creator** | How to write Skills | Building new Skills |
 
-**Recommended workflow:** Vetter → Audit → Creator
+**Recommended workflow:** Vetter → Quality Check → Creator
 
 ---
 
@@ -207,6 +207,7 @@ Then submit a PR.
 
 - [Claude Official: Prompt Engineering Best Practices](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview)
 - [OpenClaw: Skill Creator](https://github.com/openclaw/openclaw/tree/main/skills/skill-creator)
+- [Cursor: Agent & Skills](https://cursor.com/docs/agent)
 - [OpenAI: Prompt Engineering Guide](https://platform.openai.com/docs/guides/prompt-engineering)
 - [Martin Fowler: Harness Engineering](https://martinfowler.com/articles/exploring-gen-ai/harness-engineering.html)
 
